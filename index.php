@@ -50,7 +50,7 @@ class Connection
 }
 
 $user = new Connection();
-//$user->execute("INSERT INTO `users`(`name`, `password`, `date`) VALUES ('Залупа','666667','111')");
+//$user->execute("INSERT INTO `users`(`name`, `password`, `date`) VALUES ('dsfa','666667','111')");
 
 $us = $user->query("SELECT * FROM `users`");
 
